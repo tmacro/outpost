@@ -1,0 +1,9 @@
+deployment           = "mycloud"
+hcloud_token         = ""
+hcloud_region        = ""
+ssh_pub_key     = "<DEV_KEY_CHANGE_ME>"
+manager_base_image   = "ubuntu-18.04"
+manager_machine_type = "cx41"
+worker_count         = 3
+worker_base_image    = "ubuntu-18.04"
+worker_machine_type  = "cx41"
