@@ -24,5 +24,5 @@ output "worker_server_ids" {
 }
 
 output "depended_on" {
-  value = "${null_resource.dependency_setter.id}-${timestamp()}"
+  value = null_resource.dependency_setter.id
 }
